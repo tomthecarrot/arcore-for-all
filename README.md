@@ -28,11 +28,13 @@ To modify the original ARCore AAR library, follow the below instructions. You wi
 5. **Enter the temporary classes directory**: `cd classes-tmp`
 6. **Enter the directory containing the SupportedDevices class**: `cd com/google/atap/tangoservice`
 7. **Decompile the SupportedDevices class**: `java -jar /path/to/cfr.jar SupportedDevices.class > SupportedDevices.java`
-8. **Remove `return false` from the end of `isSupported()`**
-9. **Change directory back to aar-tmp**: `cd ../../../../../`
-10. **Create a JAR from the modified classes directory**: `jar cvf classes.jar -C classes-tmp .`
-11. **Change directory back to repo root**: `cd ..`
-12. **Create an AAR from the modified aar directory**: `jar cvf arcore_client.aar -C aar-tmp .`
+8. **Open a text editor and delete `return false` from the end of `isSupported()`**
+9. **Compile the modified SupportedDevice class**: `javac -cp /path/to/sdk/platform/android.jar -source 1.7 -target 1.7 SupportedDevices.java`
+10. **Delete the Java source**: `rm SupportedDevices.java`
+11. **Change directory back to aar-tmp**: `cd ../../../../../`
+12. **Create a JAR from the modified classes directory**: `jar cvf classes.jar -C classes-tmp .`
+13. **Change directory back to repo root**: `cd ..`
+14. **Create an AAR from the modified aar directory**: `jar cvf arcore_client.aar -C aar-tmp .`
 
 After the above steps, you will have a modified `arcore_client.aar` with device verification stripped. Now you can replace the AAR in your project and build to any hardware-capable Android device!
 
