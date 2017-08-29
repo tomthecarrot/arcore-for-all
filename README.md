@@ -6,13 +6,16 @@ Google's ARCore developer preview for Android is awesome. Unfortunately, my Andr
 
 I modified the Android library to strip the ARCore device check, and ARCore is now working on the device.
 
-## Installation
-In your project, simply replace the Google-provided `arcore_client.aar` with the one in this repo, and voilà! ARCore on any Android device.
+## Android Installation
+In your Android project, simply replace the Google-provided `arcore_client.aar` with the one in this repo, and voilà! ARCore on any Android device.
+
+## Unity Installation
+In your Unity project, simply replace the Google-provided `unitygar.aar` (located in `GoogleARCore/SDK/Plugins/`) with the one in this repo, and voilà! ARCore on any Android device, within Unity.
 
 ## Disclaimer
 Please keep in mind that (at the time of this writing) only 3 Android devices are officially supported by ARCore, so this hack might not work. I also take no responsibility for damage to your software. It's worth a try, though! ;)
 
-## Build Instructions
+## Android Build Instructions
 To modify the original ARCore AAR library, follow the below instructions. You will need a java class decompiler, such as [CFR](http://www.benf.org/other/cfr/).
 1. **Open a command line interface**
 2. **Unzip the AAR to a temporary directory**: `unzip arcore_client-original.aar -d aar-tmp`
@@ -28,6 +31,9 @@ To modify the original ARCore AAR library, follow the below instructions. You wi
 12. **Create an AAR from the modified aar directory**: `jar cvf arcore_client.aar -C aar-tmp .`
 
 After the above steps, you will have a modified `arcore_client.aar` with device verification stripped. Now you can replace the AAR in your project and build to any hardware-capable Android device!
+
+## Unity Build Instructions
+Coming soon
 
 ## Credit
 Original library by [Google](https://developers.google.com/ar/develop/java/getting-started)  
