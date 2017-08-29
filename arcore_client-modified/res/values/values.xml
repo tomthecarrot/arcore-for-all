@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="google_ar_major_version">0</integer>
+    <integer name="google_ar_minor_version">0</integer>
+    <integer name="google_ar_patch_version">0</integer>
+</resources>
