@@ -13,7 +13,7 @@ In your project, simply replace the Google-provided `arcore_client.aar` with the
 Please keep in mind that (at the time of this writing) only 3 Android devices are officially supported by ARCore, so this hack might not work. I also take no responsibility for damage to your software. It's worth a try, though! ;)
 
 ## Build Instructions
-To modify the original ARCore AAR library, follow these instructions:
+To modify the original ARCore AAR library, follow the below instructions. You will need a java class decompiler, such as [CFR](http://www.benf.org/other/cfr/).
 1. **Open a command line interface**
 2. **Unzip the AAR to a temporary directory**: `unzip arcore_client-original.aar -d aar-tmp`
 3. **Enter the temporary aar directory**: `cd aar-tmp`
