@@ -21,7 +21,7 @@ To modify the original ARCore AAR library, follow the below instructions. You wi
 5. **Enter the temporary classes directory**: `cd classes-tmp`
 6. **Enter the directory containing the SupportedDevices class**: `cd com/google/atap/tangoservice`
 7. **Decompile the SupportedDevices class**: `java -jar /path/to/cfr.jar SupportedDevices.class > SupportedDevices.java`
-8. **Remove `return false` from the end of `isSupported()`
+8. **Remove `return false` from the end of `isSupported()`**
 9. **Change directory back to aar-tmp**: `cd ../../../../../`
 10. **Create a JAR from the modified classes directory**: `jar cvf classes.jar -C classes-tmp .`
 11. **Change directory back to repo root**: `cd ..`
