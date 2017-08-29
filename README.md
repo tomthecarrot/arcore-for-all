@@ -1,8 +1,8 @@
 # ARCore for All
-Google ARCore for all devices (not just "supported" ones)
+Google ARCore for "unsupported" Android devices
 
 ## Summary
-Google's ARCore developer preview for Android is awesome. Unfortunately, my Android phone (Samsung GS8+) is "unsupported", and apps built with ARCore exit at start on my device. However, its hardware actually can run ARCore!
+Google's ARCore developer preview for Android is awesome. Unfortunately, my Android phone (Samsung GS8+) is not on the supported list, and apps built with ARCore exit at start on my device. However, its hardware actually can run ARCore!
 
 I modified the Android library to strip the ARCore device check, and ARCore is now working on the device.
 
@@ -11,6 +11,10 @@ In your Android project, simply replace the Google-provided `arcore_client.aar` 
 
 ## Unity Installation
 In your Unity project, simply replace the Google-provided `unitygar.aar` (located in `GoogleARCore/SDK/Plugins/`) with the one in this repo, and voilà! ARCore on any Android device, within Unity.
+
+## Requirements
+1. **Capable Android hardware** - Since Google does not yet officially support more than a few devices, it's unknown which devices will actually work. My estimate is that devices from the past year should work, but it's currently unclear. Feel free to try and see if it works on your device!
+2. **Android 7.0 or newer** - The official library has a minimum SDK version of Android 7.0 (Nougat). It's possible that the library runs fine on older versions (such as Android 6.0 Marshmallow) but I have not yet tested it.
 
 ## Disclaimer
 Please keep in mind that (at the time of this writing) only 3 Android devices are officially supported by ARCore, so this hack might not work. I also take no responsibility for damage to your software. It's worth a try, though! ;)
