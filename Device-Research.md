@@ -1,5 +1,12 @@
 # Device Research
 
+### TL;DR
+The current modification seems to support Google and Samsung phones with an Adreno GPU.  
+
+### Contributing
+Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issues) to let us know if your device works. If it does not, please include the output from logcat so we can make more modifications. Thanks!
+
+### Known Support
 | Manufacturer | Device | Model | GPU | Official Support? | Functional? |
 | ------------ | ------ | ----- | --- | ----------------- | ----------- |
 | Google | Pixel | All | Adreno 530 | ✓ | ✓ |
@@ -19,4 +26,4 @@
 | Xiaomi | Redmi Note 4 | All | Adreno 506 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/5) |
 | Motorola | Moto G4 | All | Adreno 405 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/2#issuecomment-326336840) |
 
-Source: [gsmarena.com](http://gsmarena.com) & [Repo Issues](https://github.com/tomthecarrot/arcore-for-all/issues)
+_Source: [gsmarena.com](http://gsmarena.com) & [Repo Issues](https://github.com/tomthecarrot/arcore-for-all/issues)_
