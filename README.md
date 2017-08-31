@@ -19,7 +19,7 @@ Make sure to first install ARCore Service - "Preparing your Device" section of G
 https://developers.google.com/ar/develop/java/getting-started  
 
 ## Requirements
-1. **Capable Android hardware** - Since Google does not yet officially support more than a few devices, it's unknown which devices will actually work. My estimate is that devices from the past year should work, but it's currently unclear. Feel free to try and see if it works on your device!
+1. **Capable Android hardware** - Since Google does not yet officially support more than a few devices, it's unknown which devices will actually work. My estimate is that devices from the past year should work, but it's currently unclear. Feel free to try and see if it works on your device, then let us know! There is a [research document](https://github.com/tomthecarrot/arcore-for-all/blob/master/Device-Research.md) so we can identify necessary modifications.
 2. **Android 7.0 or newer** - The official library has a minimum SDK version of Android 7.0 (Nougat). It's possible that the library runs fine on older versions (such as Android 6.0 Marshmallow) but I have not yet tested it.
 
 ## Disclaimer
