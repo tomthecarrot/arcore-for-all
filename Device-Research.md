@@ -19,6 +19,7 @@ Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issu
 | Samsung | Galaxy S8 | EMEA | Mali | ✓ | ? |
 | Samsung | Galaxy S8+ | USA & China | Adreno 540 | X | ✓ |
 | Samsung | Galaxy S8+ | EMEA | Mali | X | ? |
+| Samsung | Galaxy S8+ | G955F | Mali | X | ✓ |
 | HTC | HTC 10 | All | Adreno 530 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/2) |
 | OnePlus | 3 | All | Adreno 530 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/4) |
 | OnePlus | X | All | Adreno 330 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/7) |
