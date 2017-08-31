@@ -4,7 +4,7 @@
 | ------------ | ------ | ----- | --- | ----------------- | ----------- |
 | Google | Pixel | All | Adreno 530 | ✓ | ✓ |
 | Google | Pixel XL | All | Adreno 530 | ✓ | ✓ |
-| Samsung | Galaxy S6 | All | Mali | X | X [X](https://github.com/tomthecarrot/arcore-for-all/issues/8) |
+| Samsung | Galaxy S6 | All | Mali | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/8) |
 | Samsung | Galaxy S7 | All | Mali | X | ? |
 | Samsung | Galaxy S7 Edge | G9350 (Hong Kong) | Adreno 530 | X | ? |
 | Samsung | Galaxy S7 Edge | All except G9350 | Mali | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/6) |
