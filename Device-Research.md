@@ -11,16 +11,18 @@ Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issu
 | ------------ | ------ | ----- | --- | ----------------- | ----------- |
 | Google | Pixel | All | Adreno 530 | ✓ | ✓ |
 | Google | Pixel XL | All | Adreno 530 | ✓ | ✓ |
-| Samsung | Galaxy S6 | All | Mali | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/8) |
-| Samsung | Galaxy S7 | All | Mali | X | ? |
+| Samsung | Galaxy S6 | G920 | Mali-T760MP8 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/8) |
+| Samsung | Galaxy S7 | G930F | Mali-T880 MP12 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/15) |
 | Samsung | Galaxy S7 Edge | G9350 (Hong Kong) | Adreno 530 | X | ? |
-| Samsung | Galaxy S7 Edge | All except G9350 | Mali | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/6) |
+| Samsung | Galaxy S7 Edge | G935FD, G935F, G935W8 | Mali-T880 MP12 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/6) |
 | Samsung | Galaxy S8 | USA & China | Adreno 540 | ✓ | ✓ |
-| Samsung | Galaxy S8 | EMEA | Mali | ✓ | ? |
+| Samsung | Galaxy S8 | EMEA | Mali-G71 MP20 | ✓ | ? |
 | Samsung | Galaxy S8+ | USA & China | Adreno 540 | X | ✓ |
-| Samsung | Galaxy S8+ | EMEA | Mali | X | ? |
-| Samsung | Galaxy S8+ | G955F | Mali | X | ✓ |
+| Samsung | Galaxy S8+ | G955F (EMEA) | Mali-G71 MP20 | X | [✓](https://github.com/tomthecarrot/arcore-for-all/pull/11) |
 | HTC | HTC 10 | All | Adreno 530 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/2) |
+| Huawei | Nexus 6P | All | Adreno 430 | X | [✓](https://github.com/tomthecarrot/arcore-for-all/issues/14) |
+| LG | G2 | All | Adreno 330 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/13) |
+| LG | Nexus 5X | All | Adreno 418 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/16) |
 | OnePlus | 3 | All | Adreno 530 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/4) |
 | OnePlus | X | All | Adreno 330 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/7) |
 | Nvidia | Shield K1 | All | ULP GeForce Kepler | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/5) |
