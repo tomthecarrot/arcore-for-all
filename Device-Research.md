@@ -1,8 +1,5 @@
 # Device Research
 
-### TL;DR
-The current modification seems to support Google and Samsung phones with an Adreno GPU.  
-
 ### Contributing
 Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issues) to let us know if your device works. If it does not, please include the output from logcat so we can make more modifications. Thanks!
 
