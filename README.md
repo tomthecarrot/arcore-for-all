@@ -1,6 +1,9 @@
 # ARCore for All
 Google ARCore for "unsupported" Android devices
 
+## Help Wanted
+If you have a Google Tango device, please post your device's `online-calibration.xml` or `calibration.xml`. This would help a great deal in ongoing research to make ARCore work on more devices. Thanks!
+
 ## Summary
 Google's ARCore developer preview for Android is awesome. Unfortunately, my Android phone (Samsung GS8+) is not on the supported list, and apps built with ARCore exit at start on my device. However, its hardware actually can run ARCore!
 
