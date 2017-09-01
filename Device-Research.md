@@ -20,6 +20,7 @@ Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issu
 | Huawei | Nexus 6P | All | Adreno 430 | X | [✓](https://github.com/tomthecarrot/arcore-for-all/issues/14) |
 | Huawei | P10 | All | Mali-G71 MP8 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/19) |
 | LG | G2 | All | Adreno 330 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/13) |
+| LG | Nexus 5 | All | Adreno 330 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/21) |
 | LG | Nexus 5X | All | Adreno 418 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/16) |
 | OnePlus | 3 | All | Adreno 530 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/4) |
 | OnePlus | X | All | Adreno 330 | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/7) |
