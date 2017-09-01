@@ -9,14 +9,16 @@ I modified the Android library to strip the ARCore device check, and ARCore is n
 ## Android Installation
 In your Android project, simply replace the Google-provided `arcore_client.aar` with the one in this repo, and voilà! ARCore on any Android device.
 
-Make sure to first install ARCore Service - "Preparing your Device" section of Google's instructions
-https://developers.google.com/ar/develop/java/getting-started  
+**Update Aug 31 6pm PST:** Please install my [modified ARCore Service APK](http://tomthecarrot.com/projects/arcore-for-all/arcore-preview-modified.apk) instead of Google's at this time. We are trying to test if a new modification will support more devices. Thanks!
+
+~Make sure to first install ARCore Service - "Preparing your Device" section of [Google's instructions](https://developers.google.com/ar/develop/java/getting-started)~  
 
 ## Unity Installation
 In your Unity project, simply replace the Google-provided `unitygar.aar` (located in `GoogleARCore/SDK/Plugins/`) with the one in this repo, and voilà! ARCore on any Android device, within Unity.
 
-Make sure to first install ARCore Service - "Preparing your Device" section of Google's instructions
-https://developers.google.com/ar/develop/java/getting-started  
+**Update Aug 31 6pm PST:** Please install my [modified ARCore Service APK](http://tomthecarrot.com/projects/arcore-for-all/arcore-preview-modified.apk) instead of Google's at this time. We are trying to test if a new modification will support more devices. Thanks!
+
+~Make sure to first install ARCore Service - "Preparing your Device" section of [Google's instructions](https://developers.google.com/ar/develop/java/getting-started)~  
 
 ## Requirements
 1. **Capable Android hardware** - Since Google does not yet officially support more than a few devices, it's unknown which devices will actually work. My estimate is that devices from the past year should work, but it's currently unclear. Feel free to try and see if it works on your device, then let us know! There is a [research document](https://github.com/tomthecarrot/arcore-for-all/blob/master/Device-Research.md) so we can identify necessary modifications.
