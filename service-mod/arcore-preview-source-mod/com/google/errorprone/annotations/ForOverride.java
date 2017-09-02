@@ -1,0 +1,17 @@
+package com.google.errorprone.annotations;
+
+import java.lang.annotation.Annotation;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.CLASS)
+@Target({java.lang.annotation.ElementType.METHOD})
+@IncompatibleModifiers({javax.lang.model.element.Modifier.PUBLIC, javax.lang.model.element.Modifier.PRIVATE, javax.lang.model.element.Modifier.STATIC, javax.lang.model.element.Modifier.FINAL})
+public @interface ForOverride {}
+
+
+/* Location:              /Users/tom/Downloads/dex2jar-2.0/classes.jar!/com/google/errorprone/annotations/ForOverride.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */
