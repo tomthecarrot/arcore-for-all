@@ -1,7 +1,7 @@
 # ARCore for All
 Google ARCore for "unsupported" Android devices
 
-## Update
+## Latest Update
 **Please check out the [service mod](https://github.com/tomthecarrot/arcore-for-all/tree/service-mod) branch** to help us develop the latest experiment to bring ARCore to more devices. Thanks!
 
 ## Summary
