@@ -1,8 +1,9 @@
 # ARCore for All
 Google ARCore for "unsupported" Android devices
 
-## Latest Update
-**Please check out the [service mod](https://github.com/tomthecarrot/arcore-for-all/tree/service-mod) branch** to help us develop the latest experiment to bring ARCore to more devices. Thanks!
+## See Experimental Branch
+This branch is unlikely to work on most devices.  
+**Please check out the [service mod](https://github.com/tomthecarrot/arcore-for-all/tree/service-mod) branch** of this repo to help us develop the latest experiment to bring ARCore to more devices. Thanks!
 
 ## Summary
 Google's ARCore developer preview for Android is awesome. Unfortunately, my Android phone (Samsung GS8+) is not on the supported list, and apps built with ARCore exit at start on my device. However, its hardware actually can run ARCore!
@@ -12,14 +13,10 @@ I modified the Android library to strip the ARCore device check, and ARCore is n
 ## Android Installation
 In your Android project, simply replace the Google-provided `arcore_client.aar` with the one in this repo, and voilà! ARCore on any Android device.
 
-**Update Aug 31 6pm PST:** Please install my [modified ARCore Service APK](https://github.com/tomthecarrot/arcore-for-all/raw/service-mod/service-mod/arcore-preview-modified.apk) instead of Google's at this time. We are trying to test if a new modification will support more devices. Thanks!
-
 ~Make sure to first install ARCore Service - "Preparing your Device" section of [Google's instructions](https://developers.google.com/ar/develop/java/getting-started)~  
 
 ## Unity Installation
 In your Unity project, simply replace the Google-provided `unitygar.aar` (located in `GoogleARCore/SDK/Plugins/`) with the one in this repo, and voilà! ARCore on any Android device, within Unity.
-
-**Update Aug 31 6pm PST:** Please install my [modified ARCore Service APK](https://github.com/tomthecarrot/arcore-for-all/raw/service-mod/service-mod/arcore-preview-modified.apk) instead of Google's at this time. We are trying to test if a new modification will support more devices. Thanks!
 
 ~Make sure to first install ARCore Service - "Preparing your Device" section of [Google's instructions](https://developers.google.com/ar/develop/java/getting-started)~  
 
