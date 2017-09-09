@@ -37,4 +37,7 @@ Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issu
 | ZTE | Axon 7 | A2017 | Adreno 530 | ✓ | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/18) |
 | Sony | Xperia XZs | All | Adreno 530 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/26) |
 
-_Source: [gsmarena.com](http://gsmarena.com) & [Repo Issues](https://github.com/tomthecarrot/arcore-for-all/issues)_
+_Sources:  
+[gsmarena.com](http://gsmarena.com)  
+[phonearena.com](https://www.phonearena.com/phones/full)  
+[Repo Issues](https://github.com/tomthecarrot/arcore-for-all/issues)_  
