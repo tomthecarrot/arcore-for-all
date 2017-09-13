@@ -23,7 +23,6 @@ In your Unity project, simply replace the Google-provided `unitygar.aar` (locate
 ## Requirements
 1. **Capable Android Hardware** - Since Google does not yet officially support more than a few devices, it's unknown which devices will actually work. My estimate is that devices from the past year should work, but it's currently unclear. Feel free to try and see if it works on your device, then let us know! There is a [research document](https://github.com/tomthecarrot/arcore-for-all/blob/master/Device-Research.md) so we can identify necessary modifications.
 2. **64-bit Architecture** - The library does not contain a build for 32-bit processors, [as pointed out by @szugyi](https://github.com/tomthecarrot/arcore-for-all/issues/13#issuecomment-328300515).
-3. **Android 7.0 or newer** - The official library has a minimum SDK version of Android 7.0 (Nougat). It's possible that the library runs fine on older versions (such as Android 6.0 Marshmallow) but I have not yet tested it.
 
 ## Disclaimer
 Please keep in mind that (at the time of this writing) only 3 Android devices are officially supported by ARCore, so this hack might not work. I also take no responsibility for damage to your software. It's worth a try, though! ;)
@@ -46,6 +45,9 @@ To modify the original ARCore AAR library, follow the below instructions. You wi
 14. **Create an AAR from the modified aar directory**: `jar cvf arcore_client.aar -C aar-tmp .`
 
 After the above steps, you will have a modified `arcore_client.aar` with device verification stripped. Now you can replace the AAR in your project and build to any hardware-capable Android device!
+
+## Android (pre-Nougat) Build Instructions
+The official library has a minimum SDK version of Android 7.0 (Nougat). See [@kenfast's research for installing on pre-7.0](https://github.com/tomthecarrot/arcore-for-all/issues/70#issue-257430177).
 
 ## Unity Build Instructions
 Coming soon
