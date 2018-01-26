@@ -36,6 +36,7 @@ Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issu
 | Motorola | Nexus 6 | All | Adreno 420 | X | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/20) |
 | ZTE | Axon 7 | A2017 | Adreno 530 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/18) |
 | Sony | Xperia XZs | All | Adreno 530 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/26) |
+| Lenovo | P2 | P2a42 | Adreno 506 | ✓ | X | ✓ |
 
 _Sources:  
 [gsmarena.com](http://gsmarena.com)  
