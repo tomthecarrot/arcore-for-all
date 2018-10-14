@@ -1,5 +1,5 @@
 # ARCore for All
-Google ARCore for "unsupported" Android devices
+Google ARCore (dev preview 1) for "unsupported" Android devices
 
 ## Summary
 Google's ARCore developer preview for Android is awesome. Unfortunately, my Android phone (Samsung GS8+) was not on the supported list, and apps built with ARCore exit at start on my device. However, its hardware actually can run ARCore!
