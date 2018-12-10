@@ -67,4 +67,4 @@ _these instructions contributed by GitHub user [Ila Maheshwari](https://github.c
 
 ## Credit
 Original library by [Google](https://developers.google.com/ar/develop/java/getting-started)  
-Modification by [Thomas Suarez ("tomthecarrot")](http://tomthecarrot.com/)
+Modification by [Thomas Suarez ("tomthecarrot")](http://tomthecarrot.com/) and Contributors to this project on GitHub.
