@@ -56,7 +56,14 @@ After the above steps, you will have a modified `arcore_client.aar` with device 
 The official library has a minimum SDK version of Android 7.0 (Nougat). See [@kenfast's research for installing on pre-7.0](https://github.com/tomthecarrot/arcore-for-all/issues/70#issue-257430177).
 
 ## Unity Build Instructions
-Coming soon
+_these instructions contributed by GitHub user [Ila Maheshwari](https://github.com/ilamaheshwari). Thank you!_   
+1. Connect your Android device to your computer using a USB cable. You may see a prompt asking you to confirm that you wish to enable USB debugging on the device. If so, click OK.
+2. In Unity, open the Build Settings from the top menu (File > Build Settings).
+3. Click "Add Open Scenes" to add the Main scene to the list of scenes that will be built. Click Build And Run.
+4. You will be prompted to choose where to build your apk. A good place to do this is in a dedicated builds directory in the root of your project.
+5. Create a directory called "Builds" in the root of your project (not within your Assets directory, but at the same level as it). Select that directory as the location to which to build.
+6. In the text input field marked Save As, enter "Android" and click Save.
+7. Unity will now create an apk file called "Android" in the "Builds" folder. Run `adb install [filename].apk` to install it to your device.
 
 ## Credit
 Original library by [Google](https://developers.google.com/ar/develop/java/getting-started)  
