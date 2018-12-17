@@ -25,9 +25,9 @@ Feel free to open an [issue](https://github.com/tomthecarrot/arcore-for-all/issu
 | LG | Nexus 5 | All | Adreno 330 | X | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/21) |
 | LG | Nexus 5X | All | Adreno 418 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/16) |
 | OnePlus | 3 | All | Adreno 530 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/4) |
-| OnePlus | 3T | All | Adreno 530 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/28) |
+| OnePlus | 3T | All | Adreno 530 | ✓ | ✓ | [X](https://github.com/tomthecarrot/arcore-for-all/issues/28) |
 | OnePlus | X | All | Adreno 330 | X | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/7) |
-| OnePlus | 5 | All | Adreno 540 | ✓ | X | [✓](https://github.com/tomthecarrot/arcore-for-all/issues/27) |
+| OnePlus | 5/5T | All | Adreno 540 | ✓ | ✓ | [✓](https://github.com/tomthecarrot/arcore-for-all/issues/27) |
 | Nvidia | Shield K1 | All | ULP GeForce Kepler | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/5) |
 | Xiaomi | Redmi Note 4 | All | Adreno 506 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/5) |
 | Xiaomi | Mi 5s | capricorn | Adreno 530 | ✓ | X | [X](https://github.com/tomthecarrot/arcore-for-all/issues/44) |
